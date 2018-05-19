@@ -2,13 +2,13 @@
   <div class="calculator">
     <!-- <h1>{{ msg }}</h1> -->
     <h2>What your Revenue Looks like</h2>
-    <form class="" action="index.html" method="post">
+    <form class="">
       <label for="">Enter your Target Monthly Revenue</label>
-      <input type="text" v-model='tmr' name="" value="" required>
+      <input type="number" v-model='tmr' name="" value="" required>
       <label for="">Enter your conversion rate</label>
-      <input type="text" v-model='cr' name="" value="" required placeholder="e.g. 2%">
+      <input type="number" v-model='cr' name="" value="" required placeholder="e.g. 2%">
       <label for="">Enter your typical conversion value (e.g. average cart order size in dollars)</label>
-      <input type="text" v-model='cv' name="" value="" required>
+      <input type="number" v-model='cv' name="" value="" required>
     </form>
     <div id="result">
       <h3>Results</h3>
@@ -25,9 +25,9 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      tmr: '',
-      cv: '',
-      cr: ''
+      tmr: 0,
+      cv: 0,
+      cr: 0
     }
   },
   computed:  {
@@ -43,8 +43,8 @@ export default {
     },
 
     tdv: function () {
-      var ratio_cr = this.cr / 100
-      return (this.nc / (this.cr / 100));
+      var ratioCr = this.cr / 100
+      return (this.nc / ratioCr);
     }
   },
 
