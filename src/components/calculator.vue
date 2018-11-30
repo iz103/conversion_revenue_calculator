@@ -81,6 +81,7 @@
           <!-- <strong>Simple ROI Calculator</strong> by <a href="http://hq.gathercustomers.com" target="_blank">Gather. Grow your audience and personalize their experience</a> -->
           <strong>Simple ROI Calculator</strong> by Gather.
           <p><a class="button is-primary" href="https://academy.gathercustomers.com/how-top-shopify-stores-use-cro-to-scientifically-improve-conversion-rates/" target="_blank">Improve your ROI and Download This Report Today</a></p>
+          <p class="is-small">Disclaimer: The information and technology on this webpage are not intended as financial advice or any other type of advice. The results from this ROI calculator does not represent actual real world results.</p>
           <p>&copy; 2018 Sourcecraft PTY LTD All Rights Reserved</p>
         </p>
       </div>
